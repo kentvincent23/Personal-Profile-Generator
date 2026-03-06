@@ -19,9 +19,10 @@
         <label for="gender">Gender:</label>
         <input type="radio" id="gender" name="gender" value="Male">
         <label for="male"> Male </label>
-        <input type="radio" id="gender" name="gender" value="Feale">
+        <input type="radio" id="gender" name="gender" value="Female">
         <label for="female"> Female </label>
 
-
+        <label for="hobbies">Hobbies:</label>
+        <>
 </body>
 </html>
