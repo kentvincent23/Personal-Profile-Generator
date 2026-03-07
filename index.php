@@ -5,6 +5,39 @@
     <meta charset = 'UTF-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<style>
+body{
+    background-color: pink;
+    padding-top: 50px;
+    padding-bottom:50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+form, h1 {
+    padding-left: 50px;
+    align-content: center;
+    text-align: center;
+   line-height: 5px;
+}
+.body{
+    background-color: paleturquoise;
+    border: solid 2px black;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-bottom: 30px;
+    line-height: 5px;
+}
+.submitbtn{
+    background-color: hotpink;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+</style>
+<div class="body">
 <body>
     <h1> Kent's Profile Generator!</h1>
     <form action="profile.php" method="post" enctype="multipart/form-data">
@@ -41,9 +74,10 @@
 
         <h3>Profile Picture: </h3>
         <label for="ppf">Upload a profile picture:</label>
-        <input type="file" id="ppf" name="ppf"> <br>
-        <input type="submit" value="Upload" name="submit">
+        <input type="file" id="ppf" name="ppf"> <br> <br>
+        <input type="submit" value="Upload" name="submit" class="submitbtn"> 
         </form>
+</div>
 
 </body>
 </html>
